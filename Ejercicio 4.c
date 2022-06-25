@@ -35,7 +35,6 @@ int main(){
     for(int i = 0 ;i < 10; i++){
     
         flag_mayor_monto_similitud_mes[i] = 0;
-    
     }
     
 	// --------------- LOGICA DE CARGADO DE DATOS DESDE STDIN -------------------
@@ -62,23 +61,23 @@ int main(){
             
 			flag_mayor_monto_total = facturas[i].monto_total;
 			
-			for(int i = 0 ;i < 10; i++){
+		for(int i = 0 ;i < 10; i++){
                 
-                flag_mayor_monto_similitud_mes[i] = 0;
+                	flag_mayor_monto_similitud_mes[i] = 0;
                 
-            }
+            	}
 			
 		}
         
 		
-        if(flag_mayor_monto_total = facturas[i].monto_total){
+        	if(flag_mayor_monto_total = facturas[i].monto_total){
             
-            flag_mayor_monto_similitud_mes[i] = facturas[i].fecha_de_emision[0];
+            		flag_mayor_monto_similitud_mes[i] = facturas[i].fecha_de_emision[0];
             
-        }
-        //-----------------------------------------------------------------------
-	}
-	//---------------------------------------------------------------------
+       		}
+        	//-----------------------------------------------------------------------
+	 }
+	 //------------------------------------------------------------------------------
 
 
     	
