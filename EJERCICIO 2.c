@@ -44,18 +44,17 @@ int main (){
 	vuelos[3].codigo = "CL1611";
 	vuelos[3].ciudad_de_origen = "Chile";
 	vuelos[3].ciudad_de_destino = "Argentina";
-    //--------------------------------------------------------
+    	//--------------------------------------------------------
     
 	//-----EL USUARIO INGRESA LA CIUDAD PENSADA---------
 	char sentencia_del_usuario[100];
 	printf("Ingresa ciudad en mente: ");
 	scanf("%s" ,sentencia_del_usuario);
-    //--------------------------------------------------
+   	//--------------------------------------------------
     
 
 	//--------------------------------------LOGICA DE IMPRESION DE VUELOS A STDOUT -----------------------------------------------
-    for(int i = 0; i < 4; i++){
-		
+    	for(int i = 0; i < 4; i++){
 		
 		a = strcmp (sentencia_del_usuario, vuelos[i].ciudad_de_origen);
 		
